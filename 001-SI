@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int p,r,t,SI;
+cout<<"enter principle amount"<<endl;
+cin>>p;
+cout<<"enter rate of interest"<<endl;
+cin>>r;
+cout<<"enter time in years"<<endl;
+cin>>t;
+SI=p*r*t/100;
+cout<<"principle amount:"<<p<<endl;
+cout<<"rate of interest:"<<r<<endl;
+cout<<"time in years:"<<t<<endl;
+cout<<"simple interest:"<<SI<<endl;
+return 0;
+}
