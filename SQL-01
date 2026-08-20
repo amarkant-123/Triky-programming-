@@ -1,0 +1,16 @@
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    hire_date DATE DEFAULT (CURRENT_DATE),
+    salary DECIMAL(10),
+    department_id INT
+);
+
+DESC employees  //you can check how many column is created.
+
+INSERT INTO employees Vaues (employee_id, first_name, last_name, salary, department_id)
+INSERT INTO employees VALUES (101, 'Ram', 'Kumar', 75000, 1);
+INSERT INTO employees VALUES (101, 'Sita', 'Kumari', 95000, 2);
+INSERT INTO employees VALUES (101, 'Lakshan', 'Kumar', 85000,3);
+INSERT INTO employees VALUES (101, 'Urmila', 'Kumari', 90000, 4);
