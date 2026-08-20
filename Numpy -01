@@ -1,0 +1,53 @@
+import numpy as np
+np.__version__
+
+arr=np.array([5,25,30,40,50]) #1-D Array
+print(arr)
+#2-D Array
+arr=np.array([[1,2,3],[4,5,6]])
+print(arr)
+
+arr=np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+print(arr)
+print(arr.dtype)
+
+arr=np.array([[1,2,3],[4,5,6]])
+print(arr)
+print("type:",type(arr))
+
+arr=np.array([[1,2,3],[4,5,6]])
+print(arr)
+print("shape:",arr.shape)
+
+arr=np.ones(5)
+print(arr)
+
+arr=np.ones((3,3))
+print(arr)
+print("type:",type(arr))
+
+arr=np.ones((3,3),dtype=int)
+print(arr)
+
+import numpy as np
+arr=np.random.rand(3,3)
+print(arr)
+
+arr=np.random.randint(1,100,size=(3,4))
+print(arr)
+
+student_marks=np.array([85,92,78,88,95])
+print("student_marks")
+print(student_marks)
+
+matrix=np.array([[11,22,33],[44,55,66],[77,88,99]])
+print(matrix)
+
+identity=np.eye(4)
+print(identity)
+
+arr=np.arange(1,20,3)
+print(arr)
+
+arr=np.linspace(0,10,6)
+print(arr)
